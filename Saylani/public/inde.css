@@ -1,0 +1,458 @@
+body{
+  width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #316DC3;
+    height: auto;
+}
+.buttons{
+    padding: 13px 10px;
+    color: #f5f5f5;
+    font-size: 11px;
+}
+.imagess{
+    padding-top: 8px;
+}
+.imagess a{
+    margin-left: 10px;
+}
+@media screen and (min-width: 786px){
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    
+      
+    }
+    /* .imagess a{
+       
+        
+    } */
+    /* .main{
+        min-height: 200px;
+    } */
+    
+   
+}
+
+
+
+.dropbtn {
+    background-color:#F7F8FA;
+    color:black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+     height: 39px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .home{
+    border-radius: 20px;
+    color: white;
+    padding-bottom: 5px;
+    width: 80px;
+    margin-top: 10px;
+    font-size: 16px;
+  
+    height: 39px;
+  }
+  .home1:hover{
+    margin-top: 10px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    width: 80px;
+    height: 39px;
+    border-radius: 20px;
+  
+    background-color: #316DC3;
+  }
+ 
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:#316DC3;
+   text-decoration: none;
+    color: white;
+    transition:1s;
+
+
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color:#316DC3;
+    border-radius: 20px;
+    color:white;
+  }
+  .main2{
+      display: flex;
+      justify-content: flex-end;
+      background-color: #F7F8FA;
+      height: 90px;
+  }
+  #logo{
+      margin-right: 350px;
+    
+  }
+  .dropdown{
+      padding-top: 13px;
+  }
+  #but{
+      padding-top: 13px;
+  }
+  @media (max-width:600px){
+ .main{
+        flex-direction: column;
+        text-align: center;
+  }
+ 
+}
+@media (max-width:800px){
+  .main{
+         flex-direction: column;
+         text-align: center;
+   }
+  
+ }
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .collapse.dont-collapse-sm {
+      display: block;
+      height: auto !important;
+      visibility: visible;
+    }
+  }
+  marquee{
+    background-color:#316DC3;
+    font: 14px;
+    color: #ffffff;
+}
+.intro{
+  width: 100%;
+  padding-top: 40px;
+  background-color: #F7F8FA;
+}
+ .paragraphh{
+  color: #666666;
+  font-size: 14px;
+  min-width: 400px;
+  margin-left: 60px;
+  margin-right: 100px;
+ 
+  width: auto;
+  flex-direction: column;
+}
+.paragraph1{
+  min-width: 400px;
+}
+@media(max-width:700px){
+  .paragraphh{
+    flex-direction: column;
+    text-align: center;
+
+  }
+}
+/* @media only screen and (min-width:500px){
+  .paragraphh{
+    width: 50%;
+  }
+} */
+@media only screen and (max-width: 700px) {
+      .mainDiv{
+        flex-direction: column;
+        text-align: center;
+      
+      }
+}
+.mainDiv{
+  display: flex;
+  background-color: rgba(36,79,242,1);
+ 
+  padding-top: 50px;
+  margin-top: 70px;
+ height: auto;
+  justify-content:space-around;
+ 
+  
+}
+img.img3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
+/* .eat{
+       margin-left: 80px;
+}
+.edu{
+  margin-right: 80px;
+} */
+.plant{
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-around;
+}
+@media(max-width:700px){
+     .plant{
+       flex-direction: column;
+       text-align: center;
+    
+      
+     
+     }
+     .done2{
+      flex-direction: column;
+      text-align: center;
+ 
+     }
+}
+@media(max-width:900px){
+  .plant{
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+   
+  
+  }
+  .done2{
+   flex-direction: column;
+   text-align: center;
+   padding: 30px;
+  }
+}
+.plant .sadqah {
+  margin: 0px 0px 30px;
+    height: auto;
+    padding: 30px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 12px 12px 0px;
+    min-width: 300px;
+}
+#help{
+  color: #316DC3;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 12px;
+}
+.plant .welfare{
+ margin: 0px 0px 30px;
+  height: auto;
+  padding: 30px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 12px 12px 0px;
+  min-width: 300px;
+}
+ .medical {
+  margin: 0px 0px 30px;
+  height:auto;
+  padding: 30px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 12px 12px 0px;
+  min-width: 300px;
+}
+.done2{
+  display: flex;
+  justify-content: space-around;
+}
+.education{
+  margin: 0px 0px 30px;
+  height:auto;
+  padding: 30px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 12px 12px 0px;
+  min-width: 300px;
+  
+}
+@media(max-width:900px){
+  .imgGallery{
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+   
+  
+  }
+}
+.imgGallery{
+  display: flex;
+ justify-content: center;
+}
+/* Footer */
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+
+
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+ul#list li {
+  display: inline;
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
